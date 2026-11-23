@@ -1,0 +1,32 @@
+import sys; sys.path.insert(0, 'kit')
+from gistro_kit import *
+D = 'semanas/2026-11-23/'
+# Terça — post novo
+s  = titulo(84, 330, ['Post novo', 'no perfil'], 96, destaque=1)
+s += miniatura(D+'terca.png', 190, 520, 700)
+s += texto(84, 1456, ['Mercadoria chegou e o estoque', 'nem ficou sabendo? Veja no perfil.'], 44, INK, 600)
+s += assinatura_story().replace('y="1500"', 'y="1592"')
+salvar_story(story(s), D+'story-terca.png')
+# Quarta — enquete (figurinha colocada à mão no app)
+s  = texto(84, 330, ['BLACK FRIDAY · SEXTA, 27/11'], 34, MUT, 700)
+s += titulo(84, 470, ['Você vai dar', 'desconto este', 'ano?'], 100, destaque=2)
+s += area_figurinha(84, 830, 620, 260, 'Enquete: Sim / Ainda não sei')
+s += personagem('lucia', 'pensa', x=880, pe=1520, altura=640)
+s += texto(84, 1300, ['Hoje tem post com a conta', 'que vale fazer antes. Veja no perfil.'], 40, INK, 500)
+s += assinatura_story().replace('y="1500"', 'y="1592"')
+salvar_story(story(s), D+'story-quarta.png')
+# Quinta — post novo
+s  = titulo(84, 330, ['Post novo', 'no perfil'], 96, destaque=1)
+s += miniatura(D+'quinta-v2.png', 190, 520, 700)
+s += texto(84, 1456, ['Fechar o mês sem caçar', 'nota perdida. Veja no perfil.'], 44, INK, 600)
+s += assinatura_story().replace('y="1500"', 'y="1592"')
+salvar_story(story(s), D+'story-quinta.png')
+# Sexta — dica rápida no dia da Black Friday
+s  = texto(84, 330, ['DICA RÁPIDA · BLACK FRIDAY'], 34, MUT, 700)
+s += titulo(84, 470, ['Antes de anunciar', 'a oferta, conte', 'o que tem.'], 92, destaque=2)
+s += texto(84, 820, ['Promoção de produto que já acabou', 'vira cliente frustrado.', 'Dois minutos na prateleira evitam isso.'], 40, MUT)
+s += objeto('prateleira', 84, 1060, 1.15)
+s += personagem('ana', 'aponta', x=900, pe=1540, altura=600, espelhar=True)
+s += assinatura_story().replace('y="1500"', 'y="1592"')
+salvar_story(story(s), D+'story-sexta.png')
+print('ok')

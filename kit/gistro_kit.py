@@ -88,3 +88,31 @@ def salvar(svg, destino):
     subprocess.run(['rsvg-convert', '-w', '1080', '-h', '1350', tmp, '-o', destino], check=True)
     os.unlink(tmp)
     return destino
+
+# ---------- Stories (1080 x 1920) ----------
+# Área segura: deixe livres os 250 px de cima e os 340 px de baixo (barra do Instagram e respostas).
+def story(conteudo, fundo=BRANCO):
+    return f'<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"><rect width="1080" height="1920" fill="{fundo}"/>{conteudo}</svg>'
+
+def miniatura(caminho_png, x, y, largura):
+    """Miniatura de um post do feed (1080x1350) com borda, para o story 'post novo'."""
+    h = largura * 1350 / 1080; cid = f'm{int(x)}{int(y)}'
+    return (f'<rect x="{x-3}" y="{y-3}" width="{largura+6}" height="{h+6}" rx="30" fill="{LINE}"/>'
+            f'<clipPath id="{cid}"><rect x="{x}" y="{y}" width="{largura}" height="{h}" rx="28"/></clipPath>'
+            f'<image x="{x}" y="{y}" width="{largura}" height="{h}" href="{_data(caminho_png)}" clip-path="url(#{cid})"/>')
+
+def area_figurinha(x, y, w, h, rotulo='Enquete aqui'):
+    """Espaço tracejado onde o proprietário cola a figurinha (enquete, pergunta, caixinha) no app."""
+    return (f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="28" fill="none" stroke="{MUT}" stroke-width="4" stroke-dasharray="16 12" opacity=".6"/>'
+            f'<text x="{x+w/2}" y="{y+h/2+12}" text-anchor="middle" font-family="Inter" font-size="34" fill="{MUT}" opacity=".8">{rotulo}</text>')
+
+def assinatura_story():
+    return palavra(84, 1500, 170)
+
+def salvar_story(svg, destino):
+    os.makedirs(os.path.dirname(destino) or '.', exist_ok=True)
+    with tempfile.NamedTemporaryFile('w', suffix='.svg', delete=False) as f:
+        f.write(svg); tmp = f.name
+    subprocess.run(['rsvg-convert', '-w', '1080', '-h', '1920', tmp, '-o', destino], check=True)
+    os.unlink(tmp)
+    return destino
