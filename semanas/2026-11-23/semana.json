@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "dia": "terça",
+      "horario": "15:00",
+      "pilar": "gistro",
+      "titulo": "A mercadoria chegou. O estoque sabe disso?",
+      "legenda": "Fim de ano costuma trazer mais entregas: reforço para as festas, fornecedor novo, pedido que chega em duas partes. E é aí que a rotina escorrega. A caixa vai direto para a prateleira, a nota fica na gaveta do balcão e o controle continua achando que o refrigerante está acabando.\n\nO problema não é só a bagunça. Com o estoque desatualizado, você compra de novo o que já tem, deixa faltar o que vende e só lembra do boleto do fornecedor quando ele vence.\n\nNa prévia do Gistro, cada entrega vira um recebimento: você registra o que chegou do fornecedor e, ao confirmar, o estoque de cada produto é atualizado. No mesmo recebimento, a proposta é deixar a nota fiscal anexada e criar ou vincular a conta a pagar no Financeiro. E a lista mostra quais recebimentos ainda estão sem nota.\n\nNa sua loja, quem confere a mercadoria quando ela chega: você ou alguém da equipe?",
+      "hashtags": [
+        "#controledeestoque",
+        "#pequenovarejo",
+        "#recebimentodemercadorias",
+        "#gestaodecompras",
+        "#comerciolocal"
+      ],
+      "arte": "terca.png",
+      "personagem": "joao",
+      "tela": "telas/recebimentos-lista.png",
+      "direcao_arte": "Fundo branco. Título em 3 linhas com marca-texto verde em 'sabe disso?'. Apoio sobre a nota na gaveta e o boleto. Recorte da lista de Recebimentos (912 px) com marcar() no selo 'Confirmado'. João (padaria) na pose caixa, espelhado, no canto inferior direito. Assinatura Gistro no rodapé.",
+      "alertas": [
+        "A legenda diz que a proposta é anexar a nota ao recebimento (está na seção 2), mas o envio de arquivos está indisponível na prévia: a legenda não fala em enviar foto. Confirme se prefere tirar a menção à nota."
+      ]
+    },
+    {
+      "dia": "quarta",
+      "horario": "12:00",
+      "pilar": "educativo",
+      "titulo": "Desconto bom é o que cabe na margem",
+      "legenda": "Esta sexta (27/11) é Black Friday, e muita loja pequena está decidindo agora quanto vai baixar os preços. Antes de escolher o número, vale uma conta de dois minutos.\n\nPense numa peça que custou R$ 30 e é vendida por R$ 50. Sobram R$ 20 para pagar o resto do negócio. Com 20% de desconto, ela sai por R$ 40 e sobram R$ 10. O desconto parece pequeno no preço, mas levou metade do que sobrava. Para ganhar os mesmos R$ 20, é preciso vender duas peças em vez de uma.\n\nNa vida real a conta costuma ser mais apertada, porque taxa da maquininha, frete, embalagem e sacola também saem desse valor.\n\nTrês cuidados que ajudam: comece pelos produtos parados há mais tempo, defina um desconto máximo para cada produto antes de anunciar e veja se o estoque aguenta o movimento extra.\n\nSalve este post e refaça a conta com os seus números antes de sexta.",
+      "hashtags": [
+        "#blackfriday",
+        "#margemdelucro",
+        "#precificacao",
+        "#pequenosnegocios",
+        "#dicasdegestao"
+      ],
+      "arte": "quarta.png",
+      "personagem": "lucia",
+      "tela": "",
+      "direcao_arte": "Fundo branco, sem tela. Título em 3 linhas com marca-texto em 'na margem.'. Três cartões: preço cheio (sobra R$ 20), com 20% de desconto (sobra R$ 10) e o cartão verde 'Para voltar aos R$ 20 / 2 peças'. Nota 'Exemplo ilustrativo, por peça'. Dona Lúcia (loja de roupas) na pose pensa à direita.",
+      "alertas": [
+        "Números são exemplo ilustrativo (escrito na arte). A data da Black Friday (27/11/2026) foi conferida em matérias do Sebrae; confira se o post vai mesmo ao ar na quarta, 25/11, porque a legenda fala 'esta sexta'."
+      ]
+    },
+    {
+      "dia": "quinta",
+      "horario": "09:00",
+      "pilar": "gistro",
+      "titulo": "Fechar o mês para o contador, com o que conferir",
+      "legenda": "Fim de mês tem um ritual conhecido: o contador pede os lançamentos e começa a caça. Extrato num lugar, planilha em outro, aquela nota que ninguém sabe onde foi parar.\n\nNa prévia do Gistro, a área de Integrações tem um fechamento do mês pensado para o contador. Você escolhe o mês e baixa os lançamentos e um relatório resumido, em planilhas que ele consegue abrir. Antes de enviar, uma lista mostra o que ainda precisa de atenção, como lançamentos pendentes e recebimentos confirmados sem nota fiscal, cada um com um atalho para ver.\n\nA ideia é resolver as pendências do seu lado antes que elas virem pergunta do contador semanas depois.\n\nNovembro fecha na segunda que vem. Se essa etapa costuma travar o seu fim de mês, siga o perfil para ver as próximas telas da prévia.",
+      "hashtags": [
+        "#fechamentodomes",
+        "#rotinaadministrativa",
+        "#contabilidade",
+        "#pequenaempresa",
+        "#organizacaofinanceira"
+      ],
+      "arte": "quinta.png",
+      "personagem": "carlos",
+      "tela": "telas/integracoes-fechamento-do-mes.png",
+      "direcao_arte": "Fundo branco. Título em 3 linhas (80 px) com marca-texto em 'com o que conferir.'. Recorte do fechamento do mês (912 px) com marcar() nas duas pendências de 'Antes de enviar, confira'. Texto de apoio em 3 linhas. Objeto calendário e Carlos (oficina) na pose aponta, espelhado, à direita.",
+      "alertas": [
+        "O recorte tem letras pequenas: no celular, as pendências marcadas ficam no limite da leitura. Se possível, peça uma captura mais próxima do bloco 'Antes de enviar, confira'."
+      ]
+    }
+  ]
+}
