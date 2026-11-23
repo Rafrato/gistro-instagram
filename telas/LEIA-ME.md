@@ -11,6 +11,7 @@ Use estes arquivos como estão; não invente telas e não desenhe réplicas da i
 | recebimento-itens-nota-conta.png | Recebimento da Bebidas Central: itens, nota fiscal e conta a pagar | 11/11/2026 |
 | recebimentos-lista.png | Lista de recebimentos com situação e nota fiscal | 11/11/2026 |
 | recebimentos-cartoes.png | Recebido nos últimos 30 dias, rascunhos, sem nota fiscal | 11/11/2026 |
+| integracoes-o-que-conferir.png | Close do "Antes de enviar, confira" do fechamento do mês (legível no celular) | 11/11/2026 |
 | integracoes-fechamento-do-mes.png | Fechamento do mês para o contador, com o que conferir antes | 11/11/2026 |
 | tela-entrar.png | Tela de entrar com o G | 17/11/2026 |
 | site-topo.png | Topo do site (homepage) | 17/11/2026 |

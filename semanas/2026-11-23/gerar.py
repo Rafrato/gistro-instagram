@@ -30,11 +30,10 @@ salvar(post(b), D + 'quarta.png')
 
 # Quinta 09:00 — funcionalidade: fechamento do mês para o contador (Integrações)
 q  = titulo(84, 190, ['Fechar o mês', 'para o contador,', 'com o que conferir.'], 80, destaque=2)
-q += janela(84, 430, 912, 'telas/integracoes-fechamento-do-mes.png')
-k = 912/1392
-q += marcar(84 + 800*k, 430 + 44 + 74*k, 568*k, 88*k)            # "Antes de enviar, confira"
-q += texto(84, 760, ['Na prévia do Gistro, o fechamento junta', 'os lançamentos e um resumo do mês, e avisa', 'o que ainda está pendente antes de enviar.'], 32, INK, 500)
-q += objeto('calendario', 470, 920, 0.62)
+q += janela(84, 440, 912, 'telas/integracoes-o-que-conferir.png')
+q += marcar(84 + 12, 440 + 44 + 64, 888, 152)                 # as duas pendências
+q += texto(84, 820, ['Na prévia do Gistro, o fechamento junta', 'os lançamentos e um resumo do mês, e avisa', 'o que ainda está pendente antes de enviar.'], 32, INK, 500)
+q += objeto('calendario', 470, 960, 0.6)
 q += personagem('carlos', 'aponta', x=880, pe=1268, altura=420, espelhar=True) + assinatura()
-salvar(post(q), D + 'quinta.png')
+salvar(post(q), D + 'quinta-v2.png')
 print('ok')
