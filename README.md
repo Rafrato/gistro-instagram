@@ -16,3 +16,11 @@ Regra da logo: o símbolo G e a palavra Gistro nunca aparecem lado a lado (o G j
 - `kit/gistro_kit.py` — funções para montar os posts (título, texto, janela com recorte de tela, personagem, objeto, assinatura). Exemplos em `kit/exemplos.py` e o resultado em `ilustracoes/exemplos/`.
 - `ilustracoes/` — personagens fixos (Ana, João, Bia, Dona Lúcia, Rafa, Carlos, Mari) em 6 poses e 15 objetos. Ver `ilustracoes/LEIA-ME.md`.
 - `telas/` — recortes de telas reais da prévia, só com dados de demonstração. Ver `telas/LEIA-ME.md`.
+
+## Antes de agendar (revisão obrigatória)
+1. Ler em voz alta cada frase das artes, stories e legendas, como o seguidor vai ler.
+2. Conferir concordância (singular/plural), regência e tempo verbal ("quanto antes ele **receber**").
+3. Cortar frase que trava a leitura, mesmo que esteja gramaticalmente certa.
+4. Evitar repetir a mesma palavra em frases vizinhas.
+5. Conferir números, datas e dias da semana com fonte.
+6. Abrir a imagem final e conferir se nada encosta, corta ou fica pequeno demais.
