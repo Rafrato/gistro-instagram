@@ -15,5 +15,8 @@ Use estes arquivos como estão; não invente telas e não desenhe réplicas da i
 | integracoes-fechamento-do-mes.png | Fechamento do mês para o contador, com o que conferir antes | 11/11/2026 |
 | tela-entrar.png | Tela de entrar com o G | 17/11/2026 |
 | site-topo.png | Topo do site (homepage) | 17/11/2026 |
+| lista-de-compras.png | Lista de compras: quanto falta para cada produto voltar ao mínimo (Bebidas) | 23/11/2026 |
+| painel-atencao.png | Painel, "Precisa da sua atenção" (contas vencidas, a receber atrasados, zerados) | 23/11/2026 |
+| contagem-celular.png | Contagem pelo celular: quantidade digitada e o botão Registrar | 23/11/2026 |
 
 Quando o sistema mudar, o Claude Code captura de novo e substitui o arquivo com o mesmo nome, atualizando esta tabela.
