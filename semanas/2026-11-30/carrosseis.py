@@ -71,7 +71,7 @@ def cuidado(n, tit, linhas, obj, nome):
     s += titulo(84, 520, tit, 96, destaque=len(tit) - 1)
     y = 520 + len(tit) * 108 + 40
     s += texto(84, y, linhas, 40, INK, 500)
-    s += objeto(obj, 640, 860, 0.85) + assinatura()
+    s += objeto(obj, 680, 960, 0.8) + assinatura()
     salvar(post(s), D + nome)
 
 cuidado(1, ['Olhe o que', 'já vendeu.'], ['As vendas das últimas semanas', '(e as de dezembro passado, se', 'houver) dizem mais que o palpite.'], 'calculadora', 'sexta-2.png')
