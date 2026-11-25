@@ -4,7 +4,7 @@ from stories_modelos import *
 D = 'semanas/2026-11-23/'
 # Quarta 09:30 — dica para a Black Friday
 salvar_story(dica('Dica rápida · Black Friday', ['Antes de sexta,', 'anote o custo', 'de cada produto.'], 2,
-    ['Sem o custo na mão, não dá para saber', 'quanto desconto ainda deixa sobra.'],
+    ['Sem o custo na mão, você não sabe', 'até quanto pode dar de desconto', 'sem perder dinheiro.'],
     objeto('calculadora', 300, 1000, 1.1)), D + 'story-extra-qua-1.png')
 # Quarta 18:30 — bastidores: lista de compras
 salvar_story(bastidores(['A lista de compras', 'se monta sozinha.'], 1, 'telas/lista-de-compras.png',
