@@ -9,9 +9,9 @@
       "hashtags": [
         "#13salario",
         "#decimoterceiro",
+        "#folhadepagamento",
         "#pequenasempresas",
-        "#gestaofinanceira",
-        "#departamentopessoal"
+        "#dicasparaempreendedores"
       ]
     },
     {
@@ -21,11 +21,11 @@
       "arte": "reels",
       "legenda": "Conta vencendo, produto acabando, nota perdida… olha como a prévia do Gistro organiza isso.\n\n1. O painel abre o dia mostrando o que precisa de atenção.\n2. No financeiro, as contas ficam em ordem de urgência. Pagou? Um clique e está registrado.\n3. No estoque, a lista de compras mostra quanto falta para cada produto voltar ao mínimo.\n4. Chegou mercadoria? Confirma o recebimento e o estoque se atualiza.\n5. No fim do mês, você baixa os lançamentos para o contador, sabendo o que ainda falta conferir.\n\nTudo o que aparece no vídeo é da prévia, com dados de demonstração. O Gistro ainda está em construção.\n\nQual dessas telas mais ajudaria na sua rotina? Responda com o número.\n📌 Siga @seugistro para acompanhar.",
       "hashtags": [
-        "#gestaodeestoque",
+        "#controledeestoque",
         "#controlefinanceiro",
+        "#sistemadegestao",
         "#pequenosnegocios",
-        "#empreendedorismo",
-        "#sistemadegestao"
+        "#lojistas"
       ]
     },
     {
@@ -35,10 +35,10 @@
       "arte": "quarta.png",
       "legenda": "Pergunta sincera, sem julgamento: onde ficam as contas da sua loja hoje?\n\n1 – No caderninho\n2 – Numa planilha\n3 – Num aplicativo\n4 – Na cabeça (a gente sabe que acontece)\n\nCada jeito tem o seu ponto fraco: o caderno some, a planilha fica desatualizada, o aplicativo é esquecido e a cabeça esquece justo o boleto que vence amanhã.\n\nResponda com o número nos comentários e, se quiser, conte o que mais atrapalha no seu jeito. As respostas ajudam a construir o Gistro.",
       "hashtags": [
-        "#pequenosnegocios",
         "#controlefinanceiro",
-        "#comerciolocal",
-        "#empreendedorismo",
+        "#organizacaofinanceira",
+        "#pequenosnegocios",
+        "#lojistas",
         "#mei"
       ]
     },
@@ -50,10 +50,10 @@
       "legenda": "Contar o estoque inteiro de uma vez costuma significar fechar a loja, chamar alguém no domingo ou deixar para depois. E aí o controle vai ficando longe da prateleira.\n\nNa prévia do Gistro, a contagem pode ser feita por partes: você escolhe uma categoria, conta o que está ali e confirma. O que não foi contado sai da contagem e continua como estava no estoque. Dá para contar pelo celular, andando pela prateleira, e o sistema sugere por onde começar: primeiro o que nunca foi contado e o que está zerado.\n\nAo confirmar, o Gistro registra o ajuste de cada produto com diferença no histórico de movimentações.\n\nNa sua loja, a contagem é de uma vez ou aos poucos?",
       "hashtags": [
         "#controledeestoque",
-        "#inventario",
+        "#contagemdeestoque",
+        "#inventariodeestoque",
         "#pequenovarejo",
-        "#gestaodeestoque",
-        "#comerciolocal"
+        "#lojistas"
       ]
     },
     {
@@ -63,12 +63,13 @@
       "arte": "sexta.png",
       "legenda": "Dezembro vende mais, e a vontade é encher o estoque. O risco é janeiro chegar com prateleira cheia, caixa vazio e boleto do fornecedor vencendo.\n\nTrês cuidados para comprar para as festas sem encalhar:\n\n1. Olhe o que já vendeu. As vendas das últimas semanas (e, se tiver, as de dezembro do ano passado) dizem mais que o palpite.\n2. Compre em duas etapas. Uma parte agora e outra no meio de dezembro, quando você já sabe o que está saindo.\n3. Combine a troca antes. Pergunte ao fornecedor o que pode voltar se não vender e anote o combinado.\n\nProduto parado em janeiro é dinheiro que saiu do caixa e ainda não voltou.\n\nSalve para a próxima compra.",
       "hashtags": [
-        "#comprasdefimdeano",
-        "#gestaodeestoque",
-        "#pequenovarejo",
+        "#gestaodecompras",
+        "#controledeestoque",
         "#fluxodecaixa",
-        "#dicasdegestao"
+        "#pequenovarejo",
+        "#lojistas"
       ]
     }
-  ]
+  ],
+  "regra_hashtags": "Até 5 por post (limite do Instagram). 1 do assunto do post, 1-2 do problema que o post resolve, 1-2 do público (#lojistas, #pequenovarejo, #pequenosnegocios, #mei). Evitar genéricas enormes (#empreendedorismo). As palavras-chave também vão no texto da legenda e no texto alternativo."
 }
