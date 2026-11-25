@@ -11,11 +11,11 @@ salvar_story(bastidores(['A lista de compras', 'se monta sozinha.'], 1, 'telas/l
     ['Para cada produto, o Gistro mostra quanto', 'falta para voltar ao estoque mínimo.']), D + 'story-extra-qua-2.png')
 # Quinta 12:30 — checklist de fim de mês
 salvar_story(checklist('Fim de mês', ['Antes de fechar', 'novembro, confira:'], 1,
-    ['Contas pagas marcadas como pagas', 'As notas das compras estão guardadas', 'O saldo anotado bate com o extrato', 'O que ficou para dezembro está anotado'],
+    ['Contas pagas estão marcadas', 'As notas das compras estão guardadas', 'O saldo anotado bate com o extrato', 'O que ficou para dezembro está anotado'],
     ['Tire um print e use na segunda, dia 30.']), D + 'story-extra-qui-1.png')
 # Quinta 18:30 — mito ou verdade
 salvar_story(mito_verdade(['"Se tem dinheiro', 'no caixa, o mês', 'foi bom."'], 'Mito',
-    ['O caixa pode estar cheio e ainda ter', 'conta para pagar na semana que vem.', 'O que conta é o que sobra depois', 'de pagar tudo o que é do mês.']), D + 'story-extra-qui-2.png')
+    ['O caixa pode estar cheio e ainda ter', 'conta para pagar na semana que vem.', 'O que importa é o que sobra depois', 'de pagar as contas do mês.']), D + 'story-extra-qui-2.png')
 # Sexta 08:30 — lembrete da conta da margem
 salvar_story(dica('Hoje é Black Friday', ['Lembra da conta?', 'Com 20% de', 'desconto, a sobra', 'caiu pela metade.'], 3,
     ['Peça de R$ 50 que custou R$ 30: a sobra', 'vai de R$ 20 para R$ 10. A conta inteira', 'está no post de quarta, no perfil.']), D + 'story-extra-sex-1.png')

@@ -38,14 +38,14 @@ salvar(post(s2), D + 'segunda-2.png')
 s3  = texto(84, 150, ['2ª PARCELA'], 32, MUT, 700) + pagina(3, T)
 s3 += grande(84, 360, 'até 18/12')
 s3 += f'<rect x="84" y="420" width="430" height="76" rx="38" fill="{LIME}"/><text x="299" y="472" text-anchor="middle" font-family="Inter" font-weight="700" font-size="34" fill="{INK}">sexta, não dia 20</text>'
-s3 += texto(84, 620, ['O prazo da lei é 20/12, mas', 'em 2026 o dia 20 cai num', 'domingo. Então antecipa.'], 52, INK, 600)
+s3 += texto(84, 620, ['O prazo da lei é 20/12, mas', 'em 2026 o dia 20 é domingo.', 'Por isso, pague até sexta.'], 52, INK, 600)
 s3 += texto(84, 900, ['É nesta parcela que saem o INSS e,', 'quando houver, o Imposto de Renda.'], 36)
 s3 += assinatura()
 salvar(post(s3), D + 'segunda-3.png')
 
 s4  = texto(84, 150, ['PARA DEZEMBRO NÃO APERTAR'], 32, MUT, 700) + pagina(4, T)
 s4 += titulo(84, 300, ['Faça isto', 'ainda hoje:'], 104, destaque=1)
-s4 += item(480, ['Separe o valor da 2ª parcela,', 'numa conta à parte'])
+s4 += item(480, ['Separe o valor da 2ª parcela', 'numa conta à parte'])
 s4 += item(640, ['Anote como conta a pagar', 'com vencimento em 18/12'])
 s4 += item(800, ['Some as compras das festas e', 'as contas de janeiro que vêm aí'])
 s4 += assinatura()
@@ -74,7 +74,7 @@ def cuidado(n, tit, linhas, obj, nome):
     s += objeto(obj, 640, 860, 0.85) + assinatura()
     salvar(post(s), D + nome)
 
-cuidado(1, ['Olhe o que', 'já vendeu.'], ['As vendas das últimas semanas', '(e as de dezembro passado, se', 'tiver) dizem mais que o palpite.'], 'calculadora', 'sexta-2.png')
+cuidado(1, ['Olhe o que', 'já vendeu.'], ['As vendas das últimas semanas', '(e as de dezembro passado, se', 'houver) dizem mais que o palpite.'], 'calculadora', 'sexta-2.png')
 cuidado(2, ['Compre em', 'duas etapas.'], ['Uma parte agora e outra no', 'meio de dezembro, quando você', 'já sabe o que está saindo.'], 'caixa', 'sexta-3.png')
 cuidado(3, ['Combine a', 'troca antes.'], ['Pergunte ao fornecedor o que', 'pode voltar se não vender e', 'anote o combinado.'], 'recibo', 'sexta-4.png')
 
