@@ -20,8 +20,8 @@ def reels_novo(frame_png, frase):
     s += (f'<rect x="{x-3}" y="{y-3}" width="{w+6}" height="{h+6}" rx="34" fill="{LINE}"/>'
           f'<clipPath id="rf"><rect x="{x}" y="{y}" width="{w}" height="{h}" rx="32"/></clipPath>'
           f'<image x="{x}" y="{y}" width="{w}" height="{h}" href="{_data(frame_png)}" clip-path="url(#rf)"/>'
-          f'<circle cx="540" cy="{y+h/2}" r="70" fill="{INK}" opacity=".85"/>'
-          f'<path d="M520 {y+h/2-34} L520 {y+h/2+34} L572 {y+h/2} Z" fill="#fff"/>')
+          f'<circle cx="540" cy="{y+h-120}" r="62" fill="{INK}" opacity=".9"/>'
+          f'<path d="M522 {y+h-150} L522 {y+h-90} L568 {y+h-120} Z" fill="#fff"/>')
     s += texto(84, 1500, frase, 40, INK, 600)
     return story(s)          # sem assinatura: o quadro do vídeo já ocupa o espaço
 
@@ -43,7 +43,8 @@ def bastidores(linhas, destaque, tela, apoio):
     y = 470 + len(linhas) * 99 + 10
     from PIL import Image
     iw, ih = Image.open(tela).size; w = 912; h = w * ih / iw
-    s += janela(84, y, w, tela)
+    if h > 600: h = 600; w = h * iw / ih          # tela alta: limita a altura para o texto caber
+    s += janela((1080 - w) / 2 if w < 912 else 84, y, w, tela)
     s += texto(84, y + h + 44 + 80, list(apoio), 38, INK, 500)
     return _fim(s)
 
@@ -70,7 +71,7 @@ def resumo(titulo_linhas, itens):
     """itens: [(png_do_post, 'Seg · 13º salário'), ...] em grade 2 x 2."""
     s = titulo(84, 330, titulo_linhas, 92, destaque=len(titulo_linhas) - 1)
     for i, (png, leg) in enumerate(itens[:4]):
-        x = 84 + (i % 2) * 470; y = 560 + (i // 2) * 560
-        s += miniatura(png, x, y, 442)
-        s += texto(x, y + 553 + 40, [leg], 30, INK, 600)
+        x = 120 + (i % 2) * 450; y = 480 + (i // 2) * 540
+        s += miniatura(png, x, y, 390)
+        s += texto(x, y + 488 + 40, [leg], 28, INK, 600)
     return _fim(s)
